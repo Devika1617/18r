@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>VALIDATIONS</h2>
+    <form action="response.html" method="post">
+        <input type="text"
+        required
+        placeholder="email"
+        pattern="[a-z_.]+[0-9]@[a-z]+/.[a-z]{2}">
+        <title>="follow the pattern and fill properly"</title>
+        <input type="submit">
+        
+    </form>
+    <form action="response.html" method="post">
+        <input type="text"  
+        required
+        placeholder="mobile number"
+        pattern="/+91[6-9][0-9]{9,9}">
+        <input type="submit">
+    </form>
+
+</form>
+<form action="response.html" method="post">
+    <input type="text"  
+    required
+    placeholder="password"
+    pattern="(?.*[a-z])(?.*[A-Z])(?.*[@#$!])(?.*[0-9])">
+    <input type="submit">
+</form>
+    <br>
+    <br>
+    <br>
+    
+<form>
+
+    <form action= "response.html"  method="post">
+    <label for="days">days</label>
+    <input type="number" name="days" id="days" 
+    required style="width:50px;" min="1" max="31">
+
+    <label for="months">months</label>
+    <input type="number" name="months" id="months"
+    required style="width:50px;" min="1" max="12">
+     
+<label for="years">years</label>
+<input type="number" name="years" id="years"  
+required style="width:50px;">
+<br>
+<input type="submit">
+
+  </form>
+</body>
+</html>
